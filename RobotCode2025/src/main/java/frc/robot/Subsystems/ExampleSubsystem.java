@@ -10,9 +10,9 @@ public class ExampleSubsystem implements Subsystem{
         }
             return instance;
     }
-
+ 
     public ExampleSubsystem(){
-        
+
     }
 
     
