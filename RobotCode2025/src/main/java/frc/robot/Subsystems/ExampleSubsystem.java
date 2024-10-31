@@ -52,12 +52,11 @@ public class ExampleSubsystem implements Subsystem{
         return "ExampleSubsystem";
     }
 
-    public void initialize(){ //Initializes the variables of a class, like motors for example. Place the definitions of your variables here.
+    public void initialize(){ //Initializes the variables of a class, like motors for example. Place the definitions of your variables here. Typically called when the object of a class is being created or when the class needs to be reset to its orginal state.
         exampleVariable = 4;
         exampleVariable2 = 3.5;
         running = false;
     }
-
     public void update(){ //Used to update specific functions that need to be ran continuously. For example, running a camera.
         
     }
