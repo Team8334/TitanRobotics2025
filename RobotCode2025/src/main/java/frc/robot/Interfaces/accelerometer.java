@@ -1,5 +1,8 @@
 package frc.robot.Interfaces;
 
+import edu.wpi.first.units.Distance;
+import edu.wpi.first.units.Measure;
+
 public interface accelerometer {
     public void resetDisplacement();
     public float getDisplacementX();

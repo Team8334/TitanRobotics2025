@@ -1,4 +1,4 @@
-package frc.robot.Subsystems;
+package frc.robot.Subsystems; 
 // Demonstrates how to use the new Subsystem Interface.
 public class ExampleSubsystem implements Subsystem{ 
     private static ExampleSubsystem instance = null;
@@ -15,5 +15,19 @@ public class ExampleSubsystem implements Subsystem{
 
     }
 
-    
+    public void update(){
+
+    }
+
+    public void initialize(){
+
+    }
+
+    public boolean isActive(){
+        return true;
+    }
+
+    public String getName(){
+        return "example";
+    }
 }
