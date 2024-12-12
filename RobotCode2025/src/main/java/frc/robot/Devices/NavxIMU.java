@@ -23,75 +23,74 @@ public class NavxIMU implements Devices, Gyro, accelerometer {
     @Override
     public double getyaw() {
         ahrs.getYaw();
-        // TODO Auto-generated method stub
-        return 0;
+        return ahrs.getYaw();
     }
     @Override 
     public double getRate() {
         ahrs.getRate();
-        // TODO Auto-generated method stub
-        return 0;
+        return ahrs.getRate();
     }
     @Override 
     public double getCompassHeading() {
         ahrs.getCompassHeading();
-        // TODO Auto-generated method stub  
-        return 0;
+        return ahrs.getCompassHeading();
+    }
+    
+        @Override 
+    public double getRawAccelX() {
+        ahrs.getRawAccelZ(); 
+        return ahrs.getRawAccelX(); 
+    }
+
+        @Override 
+    public double getRawAccelY() {
+        ahrs.getRawAccelZ(); 
+        return ahrs.getRawAccelY(); 
     }
     @Override 
     public double getRawAccelZ() {
         ahrs.getRawAccelZ(); //z axis
-        // TODO Auto-generated method stub
-        return 0;
+        return ahrs.getRawAccelZ(); //z axis;
     }
 
     @Override
     public void resetDisplacement() {
         ahrs.resetDisplacement();
-        // TODO Auto-generated method stub
-        public void resetDisplacement() {
-        };
     }
 
     @Override
     public float getDisplacementX() {
         ahrs.getDisplacementX();
-        // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getDisplacementX'");
     }
 
     @Override
     public float getDisplacementY() {
         ahrs.getDisplacementY();
-        // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getDisplacementY'");
     }
 
     @Override
     public float getDisplacementZ() {
         ahrs.getDisplacementZ();
-        // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getDisplacementZ'");
     }
 
     @Override
     public double getVelocityX() {
         ahrs.getVelocityX();
-        // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getVelocityX'");
     }
 
     @Override
     public double getVelocityY() {
         ahrs.getVelocityY();
-        // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getVelocityY'");
     }
 
     @Override
     public double getVelocityZ() {
         ahrs.getVelocityZ();
-        // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getVelocityZ'");
     }
 }

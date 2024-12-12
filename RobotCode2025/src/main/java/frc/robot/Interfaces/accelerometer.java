@@ -11,5 +11,8 @@ public interface accelerometer {
     public double getVelocityX();
     public double getVelocityY();
     public double getVelocityZ();
+    public double getRawAccelX();
+    public double getRawAccelY();
+    public double getRawAccelZ();
 
 }
